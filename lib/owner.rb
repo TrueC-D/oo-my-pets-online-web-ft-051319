@@ -15,17 +15,6 @@ class Owner
     @@all << self
   end
   
-  def buy_fish
-  end
-  
-  def buy_cat
-    
-  end
-  
-  def buy_dog
-    
-  end
-  
   def self.all
     @@all
   end
@@ -41,4 +30,18 @@ class Owner
   def say_species
     "I am a #{@species}."
   end
+  
+  def buy_fish
+    @pets[:fishes] << Fish.
+  end
+  
+  def buy_cat
+    
+  end
+  
+  def buy_dog
+    
+  end
+  
+  
 end
