@@ -8,6 +8,7 @@ class Owner
   def initialize(species)
     @name = name
     @species = species
+    @pets = {}
     @pets[:fishes] = []
     @pets[:dogs] = []
     @pets[:cats] = []
